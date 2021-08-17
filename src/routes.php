@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('Lartrm/test', 'EdgeWizz\Lartrm\Controllers\LartrmController@test')->name('test');
+// Route::get('Lartrm/test', 'EdgeWizz\Lartrm\Controllers\LartrmController@test')->name('test');
 
 Route::post('fmt/lartrm/store', 'EdgeWizz\Lartrm\Controllers\LartrmController@store')->name('fmt.lartrm.store');
 
